@@ -82,88 +82,149 @@ nav{
 
 
 footer{
-   background-color: rgb(20, 20, 20); height: fit-content; display: flex; flex-direction: column;
-   color: white;padding-left: 80px;
-   padding-right: 80px;
+   background-color: rgb(20, 20, 20);
+   color: white;
+   padding: 20px 0;
 }
-
+footer .address{
+	line-height: 20px;
+	padding: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+footer .address img {
+    margin: 0 0 30px;
+}
+.our_team {
+    padding: 40px 15px;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+.our_team h2 {
+    font-size: 26px;
+    text-decoration: underline;
+    margin: 0 0 40px;
+}
+.our_team img {
+   	display: inline-block;
+	max-width: 25%;
+	margin-right: 45px;
+	vertical-align: middle;
+}
+.our_team .our_name {
+    display: inline-block;
+    vertical-align: middle;
+}
+.our_team .our_name p {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
 
 @media screen and (max-width: 768px) {
-        nav img{
-            width: 300px;
-         }
-        .sec2 h1{
-            font-size: 20px;
-         }
+    nav img{
+        width: 300px;
+     }
+    .sec2 h1{
+        font-size: 20px;
+     }
 
-         .sec2 img{
-             width: 300px;
-         }
+     .sec2 img{
+         width: 300px;
+     }
          
-.sec3{
-    display: flex; flex-direction: row; margin-top: 20px;
-}
+	.sec3{
+	    display: flex; flex-direction: row; margin-top: 20px;
+	}
 
-.sec3 .left{
-    width: 50%; background-color: rgb(208, 230, 255);
-}
+	.sec3 .left{
+	    width: 50%; background-color: rgb(208, 230, 255);
+	}
 
-.sec3 .left h4{
-   padding: 15px; text-align: left; font-size: 20px; 
-}
-
-
-.sec3 .right{
-    width: 50%; justify-content: right;text-align: center;
-}
-
-.sec3 .right img{
-   height: 300px;
-}
-
-.sec4{
-    background-color: rgb(208, 230, 255);
-}
+	.sec3 .left h4{
+	    padding: 15px;
+    	text-align: left;
+    	font-size: 16px;
+	}
 
 
-.activity
-{
-    text-align: center;
-}
+	.sec3 .right{
+	    width: 50%; justify-content: right;text-align: center;
+	}
 
-.activity h1{
- font-size: 30px; color: rgb(39, 39, 39); margin-top: 2px; padding-top: 40px; padding-bottom: 40px;
-}
+	.sec3 .right img{
+	   height: auto;
+    	width: 100%;
+	}
 
-.activity img{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+	.sec4{
+	    background-color: rgb(208, 230, 255);
+	}
 
 
-.activities{
-    display: grid; grid-template-columns: auto; margin: 30px;
-     
- }
+	.activity
+	{
+	    text-align: center;
+	}
+
+	.activity h1{
+	 font-size: 30px; color: rgb(39, 39, 39); margin-top: 2px; padding-top: 40px; padding-bottom: 40px;
+	}
+
+	.activity img{
+	    width: 100%;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
 
 
- .activity1{
-    background-color: white; width: 360px;height: 450px; text-align: center; padding: 10px; border-radius: 15px; margin: 20px;
-}
+	.activities{
+		display: block;
+	    grid-template-columns: none;
+	    padding: 30px 15px;
+	    margin: 0 0 30px;
+	}
 
-.activity1 img{
-    margin-top: 10px;
-}
+
+	.activity1{
+	    background-color: white; 
+	    width: 100%;
+	    height: auto;
+	    text-align: center;
+	    padding: 10px;
+	    border-radius: 15px;
+	    margin: 0 0 20px; 
+	}
+
+	.activity1 img{
+	    margin: 0 10px;
+	}
 
 
-.activity1 h3{
-    text-align: center; padding: 16px;
-}
+	.activity1 h3{
+	    text-align: center; padding: 16px;
+	}
 
-footer{
-    background-color: rgb(20, 20, 20); height: fit-content; display: flex; flex-direction: column;
-    color: white;
- }
+	footer{
+	    background-color: rgb(20, 20, 20); height: fit-content; display: flex; flex-direction: column;
+	    color: white;
+	    padding: 20px 0;
+	}
+	footer .intro h2 {
+	    font-size: 20px;
+	}
+	footer .address{
+		padding: 20px 15px;
+		width: 100%;
+	}
+	.our_team{
+		padding: 40px 15px 20px;
+		margin-top: 20px;
+	}
+	.our_team img{
+		margin: 0 0 30px;
+		max-width: 100%;
+	}
 
 }
